@@ -1,0 +1,73 @@
+body {
+    background-color: #F4D04E;
+    font-family: 'Figtree', sans-serif;
+    text-align: center; 
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.blog-card {
+    background-color: #FFFF;
+    width: 384px;
+    border-radius: 20px;
+    padding: 20px 0;
+    box-shadow: 10px 10px #1d1a12;
+    border: 1px solid rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    box-shadow: 20px 20px #1d1a12;
+}
+
+#illustration {
+    border-radius: 10px;
+    height: 200px;
+}
+
+h1 {
+    background-color: #F4D04E;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 15px 25px;
+    padding: 8px 12px;
+    width: 80px;
+    font-weight: 700;
+}
+
+.published {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+    margin: 0 25px;
+    line-height: 150%;
+}
+
+h2 {
+    text-align: start;
+    margin: 15px 25px;
+    line-height: 150%;
+    font-size: 24px;
+    font-weight: 900;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.blog-card:hover h2 {
+    color: yellow;
+}
+
+.description {
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: start;
+    margin: 15px 25px;
+}
+
+h3 {
+    font-size: 14px;
+}
